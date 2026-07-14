@@ -13,6 +13,8 @@ elif choice==2:
   reverse_string()
 elif choice==3:
   search_character()
+elif choice==4:
+  replace_character()
 else :
   print("Invalid choice")
   break
