@@ -14,6 +14,10 @@ def search_character(text):
   print("character not found")
   return False
 
+def replace_character(text):
+	result = text.replace("p", "x")
+	print(result)
+
 while True:
   print("String Operations")
   print("1.Convert case")
