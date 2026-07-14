@@ -1,5 +1,8 @@
 def convert_case(text):
-    return text.swapcase() 
+    print(text.swapcase() )
+def reverse_string(text):
+	reverse=text[::-1]
+	print(reverse)
 
 while True:
   print("String Operations")
@@ -9,15 +12,16 @@ while True:
   print("4.Replace Character")
 
 choice=int(input("Enter choice:"))
+text=input("Enter string:")
 
 if choice==1:
-  convert_case(choice)
+  convert_case(text)
 elif choice==2:
-  reverse_string(choice)
+  reverse_string(text)
 elif choice==3:
-  search_character(choice)
+  search_character(text)
 elif choice==4:
-  replace_character(choice)
+  replace_character(text)
 else :
   print("Invalid choice")
   break
