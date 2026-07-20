@@ -1,3 +1,2 @@
-print("Hello")
-print("Hi")
-print("Hello guys")
+def hello_func():
+	print("Hello guys")
